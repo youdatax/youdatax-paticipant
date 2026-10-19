@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Metaform Systems, Inc. - initial API and implementation
- *
+ * \core\common\participant-context-config-core
  */
 
 plugins {
