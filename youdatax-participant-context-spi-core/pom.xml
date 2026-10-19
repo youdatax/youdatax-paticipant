@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.participant</groupId>
+  <artifactId>youdatax-participant-context-spi-core</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-common-connector-participant-context-spi</name>
+  <description>yospace-common-connector-participant-context-spi</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:core-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrainsAnnotation" } -->
+      <dependency>
+        <groupId>org.jetbrains</groupId> 
+        <artifactId>annotations</artifactId>
+        <version>26.1.0</version>
+      </dependency>    
+            
+<!--    testImplementation(project(":tests:junit-base"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit-base</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>    
+<!--    testFixturesImplementation(project(":core:common:junit"))-->
+       <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>   
+<!--    assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }-->
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.27.6</version>
+        <scope>test</scope>
+      </dependency>         
+  </dependencies>  
+</project>
