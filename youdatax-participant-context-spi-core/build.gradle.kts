@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Metaform Systems, Inc. - initial API and implementation
- *
+ * \spi\common\connector-participant-context-spi
  */
 
 plugins {
