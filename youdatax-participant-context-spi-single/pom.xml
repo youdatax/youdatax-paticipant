@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.participant</groupId>
   <artifactId>youdatax-participant-context-spi-single</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-common-participant-context-single-spi</name>
   <description>yospace-common-participant-context-single-spi</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>org.youdatax.participant</groupId>
         <artifactId>youdatax-participant-context-spi-core</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>   
   </dependencies>  
 </project>

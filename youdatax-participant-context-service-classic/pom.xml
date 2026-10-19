@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.participant</groupId>
   <artifactId>youdatax-participant-context-service-classic</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-core-common-participant-context-single</name>
   <description>yospace-core-common-participant-context-single</description>
 
@@ -23,13 +23,13 @@
       <dependency>
         <groupId>org.youdatax.participant</groupId>
         <artifactId>youdatax-participant-context-spi-single</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:common:participant-context-config-spi"))-->
       <dependency>
         <groupId>org.youdatax.participant</groupId>
         <artifactId>youdatax-participant-context-spi-config</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>
       
 <!--    testImplementation(project(":tests:junit-base"))-->

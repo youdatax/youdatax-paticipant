@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.participant</groupId>
   <artifactId>youdatax-participant-context-service-config</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>ospace-core-common-participant-context-config</name>
   <description>ospace-core-common-participant-context-config</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>org.youdatax.participant</groupId>
         <artifactId>youdatax-participant-context-spi-config</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>       
 <!--    implementation(project(":spi:common:encryption-spi"))-->   
       <dependency>
