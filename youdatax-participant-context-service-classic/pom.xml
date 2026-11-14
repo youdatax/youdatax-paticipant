@@ -2,16 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.participant</groupId>
   <artifactId>youdatax-participant-context-service-classic</artifactId>
-  <version>0.0.3.0</version>
+  <version>0.0.4。0-SNAPSHOT</version>
   <name>yospace-core-common-participant-context-single</name>
   <description>yospace-core-common-participant-context-single</description>
 
   <dependencies>
 <!--    api(project(":spi:common:protocol-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi-protocol</artifactId> 
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-protocol</artifactId> 
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:control-plane:control-plane-spi"))
       <dependency>
@@ -23,13 +23,13 @@
       <dependency>
         <groupId>org.youdatax.participant</groupId>
         <artifactId>youdatax-participant-context-spi-single</artifactId>
-        <version>0.0.3.0</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":spi:common:participant-context-config-spi"))-->
       <dependency>
         <groupId>org.youdatax.participant</groupId>
         <artifactId>youdatax-participant-context-spi-config</artifactId>
-        <version>0.0.3.0</version>
+        <version>0.0.4.0</version>
       </dependency>
       
 <!--    testImplementation(project(":tests:junit-base"))-->

@@ -2,16 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.participant</groupId>
   <artifactId>youdatax-participant-context-spi-core</artifactId>
-  <version>0.0.3.0</version>
+  <version>0.0.4.0</version>
   <name>yospace-common-connector-participant-context-spi</name>
   <description>yospace-common-connector-participant-context-spi</description>
   
   <dependencies>
 <!--    api(project(":spi:common:core-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrainsAnnotation" } -->
       <dependency>
